@@ -3,14 +3,17 @@ env:
     MANIFEST_BRANCH: 12.x
     DEVICE: raphael
     OEM: xiaomi
-    DT_LINK: https://github.com/Alchemist-xD/android_device_xiaomi_raphael -b asop-12.0
+    DT_LINK: https://github.com/XCode219/android_device_xiaomi_raphael -b twelve
     DT_PATH: device/$OEM/$DEVICE
-    VT_LINK: https://github.com/Alchemist-xD/android_vendor_xiaomi_raphael -b main
+    VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b twelve
     VT_PATH: vendor/$OEM/$DEVICE
-    KT_LINK: https://github.com/Alchemist-xD/android_kernel_xiaomi_raphael -b main
+    KT_LINK: https://github.com/XCode219/android_kernel_xiaomi_raphael -b twelve
     PLATFORM: msmnile
     KT_PATH: kernel/$OEM/$DEVICE
-    EXTRA_CMD: "git clone --depth=1 https://github.com/ghostrider-reborn/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-6.x.git $SYNC_PATH/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x"
+    HW_COMP: https://github.com/ArrowOS-Devices/android_hardware_xiaomi -b arrow-12.0
+    HW_PATH: hardware/$OEM
+    CM_COMP: https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-12.0
+    CM_PATH: packages/apps/GCamGOPrebuilt   
     LUNCH_COMBO: aosp_raphael-userdebug 
     TARGET: bacon
     OUTPUT: PARZ1*.zip
