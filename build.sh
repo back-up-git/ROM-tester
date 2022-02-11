@@ -19,6 +19,8 @@ source build/envsetup.sh
 # lunch the target
 lunch ${LUNCH_COMBO} || { echo "ERROR: Failed to lunch the target!" && exit 1; }
 
+export SELINUX_IGNORE_NEVERALLOWS=true
+
 # Build the Code
 if [ -z "$J_VAL" ]; then
     make -j$(nproc --all) $TARGET || { echo "ERROR: Build Failed!" && exit 1; }
