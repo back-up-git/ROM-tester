@@ -16,6 +16,9 @@ repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
 git clone --depth=1 $DT_LINK $DT_PATH || { echo "ERROR: Failed to Clone the Device Trees!" && exit 1; }
 git clone --depth=1 $VT_LINK $VT_PATH
 git clone --depth=1 $KT_LINK $KT_PATH
+git clone --depth=1 $HW_LINK $HW_PATH
+git clone --depth=1 $CM_LINK $CM_PATH
+
 
 # Exit
 exit 0
