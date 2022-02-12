@@ -3,7 +3,7 @@ env:
     MANIFEST_BRANCH: 12.x
     DEVICE: raphael
     OEM: xiaomi
-    DT_LINK: https://github.com/XCode219/android_device_xiaomi_raphael -b twelve
+    DT_LINK: https://github.com/XCode219/android_device_xiaomi_raphael -b twelve-wip
     DT_PATH: device/$OEM/$DEVICE
     VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b twelve
     VT_PATH: vendor/$OEM/$DEVICE
