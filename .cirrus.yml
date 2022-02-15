@@ -18,7 +18,7 @@ env:
     TARGET: bacon
     OUTPUT: PARZ1*.zip
 
-    # Not Recommended to Change #
+    # Not Recommended to Change 
     SYNC_PATH: $HOME/work # Do NOT use "~". Use $HOME instead.
     CCACHE_SIZE: 30G
     CCACHE_DIR: $HOME/work/.ccache
