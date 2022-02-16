@@ -7,7 +7,7 @@ env:
     DT_PATH: device/$OEM/$DEVICE
     VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b twelve
     VT_PATH: vendor/$OEM/$DEVICE
-    KT_LINK: https://github.com/Evolution-X-Devices/kernel_xiaomi_raphael -b snow
+    KT_LINK: https://github.com/Alchemist-xD/android_kernel_xiaomi_raphael -b main
     PLATFORM: msmnile
     KT_PATH: kernel/$OEM/$DEVICE
     HW_LINK: https://github.com/ArrowOS-Devices/android_hardware_xiaomi -b arrow-12.0
