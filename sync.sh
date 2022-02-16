@@ -6,7 +6,7 @@ mkdir -p $SYNC_PATH
 # Change to the Source Directory
 cd $SYNC_PATH
 
-# Init Repo #
+# Init Repo
 repo init --depth=1 -u $MANIFEST -b $MANIFEST_BRANCH
 
 # Sync the Sources
