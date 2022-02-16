@@ -19,10 +19,10 @@ git clone --depth=1 $KT_LINK $KT_PATH
 git clone --depth=1 $HW_LINK $HW_PATH
 git clone --depth=1 $CM_LINK $CM_PATH
 
-rm -rf hardware/qcom-caf/sm8250/display
+rm -rf hardware/qcom-caf/sm8150/display
 rm -rf hardware/qcom-caf/sm8250/display
 rm -rf hardware/qcom-caf/sm8350/display
-rm -rf hardware/qcom-caf/sm8250/audio
+rm -rf hardware/qcom-caf/sm8150/audio
 rm -rf hardware/qcom-caf/sm8250/audio
 rm -rf hardware/qcom-caf/sm8350/audio
 
