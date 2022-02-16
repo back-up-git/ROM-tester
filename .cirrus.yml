@@ -1,9 +1,9 @@
 env:
-    MANIFEST: https://github.com/projectarcana-aosp/manifest.git
-    MANIFEST_BRANCH: 12.x
+    MANIFEST: https://github.com/PixysOS/manifest.git
+    MANIFEST_BRANCH: twelve
     DEVICE: raphael
     OEM: xiaomi
-    DT_LINK: https://github.com/XCode219/android_device_xiaomi_raphael -b arcana-wip
+    DT_LINK: https://github.com/Alchemist-xD/android_device_xiaomi_raphael -b pixys-12.0
     DT_PATH: device/$OEM/$DEVICE
     VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b twelve
     VT_PATH: vendor/$OEM/$DEVICE
@@ -12,9 +12,9 @@ env:
     KT_PATH: kernel/$OEM/$DEVICE
     HW_LINK: https://github.com/ArrowOS-Devices/android_hardware_xiaomi -b arrow-12.0
     HW_PATH: hardware/$OEM
-    #CM_LINK: https://github.com/Panchajanya1999/azure-clang -b main
-    #CM_PATH: prebuilts/clang/host/linux-x86/azure-proton   
-    LUNCH_COMBO: aosp_raphael-userdebug 
+    CM_LINK: https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-12.0
+    CM_PATH: packages/apps/GCamGOPrebuilt      
+    LUNCH_COMBO: pixys_raphael-userdebug 
     TARGET: bacon
     OUTPUT: PARZ1*.zip
 
