@@ -16,7 +16,7 @@ env:
     CM_PATH: packages/apps/GCamGOPrebuilt      
     LUNCH_COMBO: pixys_raphael-userdebug 
     TARGET: bacon
-    OUTPUT: PARZ1*.zip
+    OUTPUT: TEST*.zip
 
     # Not Recommended to Change 
     SYNC_PATH: $HOME/work # Do NOT use "~". Use $HOME instead.
