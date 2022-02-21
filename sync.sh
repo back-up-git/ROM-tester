@@ -3,7 +3,7 @@
 # Make the Directory if it doesn't exist
 mkdir -p $SYNC_PATH
 
-# Change to the Source Directory
+# Change to the Source Directoryb#
 cd $SYNC_PATH
 
 # Init Repo
