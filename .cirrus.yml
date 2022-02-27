@@ -1,9 +1,9 @@
 env:
-    MANIFEST: https://github.com/projectarcana-aosp/manifest.git
-    MANIFEST_BRANCH: 12.x
+    MANIFEST: https://github.com/AOSPA/manifest
+    MANIFEST_BRANCH: sapphire
     DEVICE: raphael
     OEM: xiaomi
-    DT_LINK: https://github.com/XCode219/android_device_xiaomi_raphael -b pixel-wip
+    DT_LINK: https://github.com/AzurE-007/android_device_xiaomi_raphael -b main
     DT_PATH: device/$OEM/$DEVICE
     VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b twelve
     VT_PATH: vendor/$OEM/$DEVICE
@@ -14,7 +14,7 @@ env:
     HW_PATH: hardware/$OEM
     CM_LINK: https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-12.0
     CM_PATH: packages/apps/GCamGOPrebuilt      
-    LUNCH_COMBO: aosp_raphael-userdebug 
+    LUNCH_COMBO: aospa_raphael-userdebug 
     TARGET: bacon
     OUTPUT: TEST*.zip
 
