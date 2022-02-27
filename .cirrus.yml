@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/AOSPA/manifest
+    MANIFEST: https://github.com/AOSPA/manifest.git
     MANIFEST_BRANCH: sapphire
     DEVICE: raphael
     OEM: xiaomi
