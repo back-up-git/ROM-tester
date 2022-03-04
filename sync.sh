@@ -17,9 +17,10 @@ git clone --depth=1 $DT_LINK $DT_PATH || { echo "ERROR: Failed to Clone the Devi
 git clone --depth=1 $VT_LINK $VT_PATH
 git clone --depth=1 $KT_LINK $KT_PATH
 #git clone --depth=1 $HW_LINK $HW_PATH
+rm -rf vendor/aospa
 git clone --depth=1 $VA_LINK $VA_PATH
 
-#rm -rf hardware/qcom-caf/sm8150/display
+rm -rf vendor/aospa
 #rm -rf hardware/qcom-caf/sm8250/display
 #rm -rf hardware/qcom-caf/sm8350/display
 #rm -rf hardware/qcom-caf/sm8150/audio
