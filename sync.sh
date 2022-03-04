@@ -20,7 +20,6 @@ git clone --depth=1 $KT_LINK $KT_PATH
 rm -rf vendor/aospa
 git clone --depth=1 $VA_LINK $VA_PATH
 
-rm -rf vendor/aospa
 #rm -rf hardware/qcom-caf/sm8250/display
 #rm -rf hardware/qcom-caf/sm8350/display
 #rm -rf hardware/qcom-caf/sm8150/audio
