@@ -12,8 +12,8 @@ env:
     KT_PATH: kernel/$OEM/$DEVICE
     #HW_LINK: https://github.com/ArrowOS-Devices/android_hardware_xiaomi -b arrow-12.0
     #HW_PATH: hardware/$OEM
-    VA_LINK: https://github.com/XCode219/android_vendor_aospa -b sapphire
-    VA_PATH: vendor/aospa      
+    #VA_LINK: https://github.com/XCode219/android_vendor_aospa -b sapphire
+    #VA_PATH: vendor/aospa      
     LUNCH_COMBO: aospa_raphael-userdebug 
     #TARGET: xd
     OUTPUT: TEST*.zip
