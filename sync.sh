@@ -21,14 +21,14 @@ git clone --depth=1 $VA_LINK $VA_PATH
 
 rm -rf art
 rm -rf bionic
-rm -rf external/zlib-ng
+#rm -rf external/zlib-ng
 #rm -rf hardware/qcom-caf/sm8250/audio
 #rm -rf hardware/qcom-caf/sm8350/audio
 
 
 git clone https://github.com/pa-vayu/android_art.git -b sapphire art
 git clone https://github.com/pa-vayu/android_bionic.git -b sapphire bionic
-git clone https://github.com/pa-vayu/android_external_zlib-ng.git -b sc external/zlib-ng
+#git clone https://github.com/pa-vayu/android_external_zlib-ng.git -b sc external/zlib-ng
 #git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-19.0 packages/resources/devicesettings
 
 # Exit
