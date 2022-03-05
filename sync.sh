@@ -29,7 +29,7 @@ rm -rf bionic
 git clone https://github.com/pa-vayu/android_art.git -b sapphire art
 git clone https://github.com/pa-vayu/android_bionic.git -b sapphire bionic
 git clone https://github.com/AzurE-007/android_device_xiaomi_raphael-sepolicy -b ruby device/xiaomi/raphael-sepolicy
-#git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-19.0 packages/resources/devicesettings
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-18.1 packages/resources/devicesettings
 
 # Exit
 exit 0
