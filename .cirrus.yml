@@ -3,11 +3,11 @@ env:
     MANIFEST_BRANCH: sapphire
     DEVICE: raphael
     OEM: xiaomi
-    DT_LINK: https://github.com/XCode219/android_device_xiaomi_raphael -b sapphire
+    DT_LINK: https://github.com/AzurE-007/android_device_xiaomi_raphael-2 -b ruby
     DT_PATH: device/$OEM/$DEVICE
-    VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b twelve
+    VT_LINK: https://github.com/AzurE-007/vendor_xiaomi_raphael -b ruby
     VT_PATH: vendor/$OEM/$DEVICE
-    KT_LINK: https://github.com/XCode219/android_kernel_xiaomi_raphael -b sapphire
+    KT_LINK: https://github.com/UtsavBalar1231/kernel_xiaomi_raphael -b android11
     PLATFORM: msmnile
     KT_PATH: kernel/$OEM/$DEVICE
     VA_LINK: https://github.com/XCode219/android_vendor_aospa -b sapphire
