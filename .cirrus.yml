@@ -3,7 +3,7 @@ env:
     MANIFEST_BRANCH: sapphire
     DEVICE: raphael
     OEM: xiaomi
-    DT_LINK: https://github.com/AzurE-007/android_device_xiaomi_raphael-2 -b ruby
+    DT_LINK: https://github.com/AzurE-007/android_device_xiaomi_raphael-2 -b sapphire
     DT_PATH: device/$OEM/$DEVICE
     VT_LINK: https://github.com/AzurE-007/vendor_xiaomi_raphael -b ruby
     VT_PATH: vendor/$OEM/$DEVICE
