@@ -25,7 +25,7 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 export ALLOW_MISSING_DEPENDENCIES=true
 
 ln -sf vendor/aospa/build.sh build.sh
-./build.sh raphael
+./rom-build.sh raphael
 
 # Exit
 exit 0
