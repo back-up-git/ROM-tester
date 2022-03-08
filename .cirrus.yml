@@ -9,7 +9,7 @@ env:
     VT_PATH: vendor/$OEM/$DEVICE
     KT_LINK: https://github.com/XCode219/android_kernel_xiaomi_raphael -b sapphire
     PLATFORM: msmnile
-    KT_PATH: kernel/$OEM/$DEVICE
+    KT_PATH: kernel/msm-4.14
     VA_LINK: https://github.com/XCode219/android_vendor_aospa -b sapphire
     VA_PATH: vendor/aospa      
     LUNCH_COMBO: aospa_raphael-userdebug 
