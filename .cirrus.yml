@@ -13,7 +13,7 @@ env:
     CM_LINK: https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-12.0
     CM_PATH: packages/apps/GCamGOPrebuilt      
     LUNCH_COMBO: cipher_raphael-userdebug 
-    TARGET: lunch
+    TARGET: bacon
     OUTPUT: TEST*.zip
 
     # Not Recommended to Change 
