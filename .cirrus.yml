@@ -3,9 +3,9 @@ env:
     MANIFEST_BRANCH: twelve-L
     DEVICE: raphael
     OEM: xiaomi
-    DT_LINK: https://github.com/XCode219/android_device_xiaomi_raphael -b cipher-12.x
+    DT_LINK: https://github.com/Alchemist-xD/android_device_xiaomi_raphael -b main
     DT_PATH: device/$OEM/$DEVICE
-    VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b xdroid-wip
+    VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b twelve
     VT_PATH: vendor/$OEM/$DEVICE
     KT_LINK: https://github.com/XCode219/android_kernel_xiaomi_raphael -b twelve
     PLATFORM: msmnile
