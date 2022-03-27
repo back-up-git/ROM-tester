@@ -20,7 +20,7 @@ source build/envsetup.sh
 lunch ${LUNCH_COMBO} || { echo "ERROR: Failed to lunch the target!" && exit 1; }
 
 
-#Never Allow Fix
+#Never Allow Fix#
 export SELINUX_IGNORE_NEVERALLOWS=true
 export ALLOW_MISSING_DEPENDENCIES=true
 
