@@ -30,6 +30,7 @@ git clone --depth=1 $VA_LINK $VA_PATH
 #git clone https://github.com/pa-vayu/android_bionic.git -b sapphire bionic
 git clone https://github.com/AzureHelper/android_device_xiaomi_raphael-sepolicy -b sapphire device/xiaomi/raphael-sepolicy
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-19.0 packages/resources/devicesettings
+git clone https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/linux-x86/proton-clang
 
 # Exit
 exit 0
