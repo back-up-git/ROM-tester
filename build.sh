@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Change to the Source Directory#
+# Change to the Source Directory
 cd $SYNC_PATH
 
 # Set-up ccache
