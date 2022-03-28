@@ -16,7 +16,7 @@ repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
 git clone --depth=1 $DT_LINK $DT_PATH || { echo "ERROR: Failed to Clone the Device Trees!" && exit 1; }
 git clone --depth=1 $VT_LINK $VT_PATH
 git clone --depth=1 $KT_LINK $KT_PATH
-#git clone --depth=1 $HW_LINK $HW_PATH
+git clone --depth=1 $HW_LINK $HW_PATH
 git clone --depth=1 $CM_LINK $CM_PATH
 
 #rm -rf hardware/qcom-caf/sm8150/display
@@ -25,17 +25,9 @@ git clone --depth=1 $CM_LINK $CM_PATH
 #rm -rf hardware/qcom-caf/sm8150/audio
 #rm -rf hardware/qcom-caf/sm8250/audio
 #rm -rf hardware/qcom-caf/sm8350/audio
-rm -rf vendor/qcom/opensource/commonsys/bluetooth_ext
-rm -rf vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
-rm -rf vendor/qcom/opensource/commonsys-intf/bluetooth
 
-git clone https://github.com/ArrowOS-Devices/android_device_xiaomi_extras.git -b arrow-12.0 device/xiaomi/extras
-git clone https://github.com/Evolution-X/vendor_qcom_opensource_bluetooth_ext.git -b snow vendor/qcom/opensource/commonsys/bluetooth_ext
-git clone https://github.com/Evolution-X/vendor_qcom_opensource_packages_apps_Bluetooth.git -b snow vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
-git clone https://github.com/Evolution-X/vendor_qcom_opensource_bluetooth-commonsys-intf.git -b snow vendor/qcom/opensource/commonsys-intf/bluetooth
-#git clone https://github.com/ArrowOS/android_hardware_qcom_display.git -b arrow-12.0-caf-sm8150 hardware/qcom-caf/sm8150/display
-#git clone https://github.com/ArrowOS/android_hardware_qcom_audio.git -b arrow-12.0-caf-sm8150 hardware/qcom-caf/sm8150/audio
-#git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-19.0 packages/resources/devicesettings
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-19.1 packages/resources/devicesettings
+git clone https://gitlab.com/Panchajanya1999/azure-clang.git -b main prebuilts/clang/host/linux-x86/clang-azure
 
 # Exit
 exit 0
