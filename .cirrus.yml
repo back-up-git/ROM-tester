@@ -12,8 +12,8 @@ env:
     KT_PATH: kernel/$OEM/$DEVICE
     CM_LINK: https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-12.1
     CM_PATH: packages/apps/GCamGOPrebuilt      
-    LUNCH_COMBO: xdroid_raphael-userdebug
-    TARGET: xd
+    LUNCH_COMBO: pixys_raphael-userdebug
+    TARGET: pixys
     OUTPUT: TEST*.zip
 
     # Not Recommended to Change 
