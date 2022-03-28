@@ -1,16 +1,16 @@
 env:
-    MANIFEST: https://github.com/xdroid-oss/xd_manifest.git
-    MANIFEST_BRANCH: twelve-android-12.1.0_r1
+    MANIFEST: https://github.com/PixysOS/manifest.git
+    MANIFEST_BRANCH: twelve
     DEVICE: raphael
     OEM: xiaomi
-    DT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b xdroid-wip
+    DT_LINK: https://github.com/AzureHelper/android_vendor_xiaomi_raphael -b pixys-12.x
     DT_PATH: device/$OEM/$DEVICE
-    VT_LINK: https://github.com/XCode219/android_vendor_xiaomi_raphael -b xdroid-wip
+    VT_LINK: https://github.com/ArrowOS-Devices/android_vendor_xiaomi_raphael -b arrow-12.1
     VT_PATH: vendor/$OEM/$DEVICE
-    KT_LINK: https://github.com/XCode219/android_kernel_xiaomi_raphael -b twelve
+    KT_LINK: https://github.com/LuanHalaiko/kernel_raphael_sm8150 -b raphael-unified
     PLATFORM: msmnile
     KT_PATH: kernel/$OEM/$DEVICE
-    CM_LINK: https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-12.0
+    CM_LINK: https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-12.1
     CM_PATH: packages/apps/GCamGOPrebuilt      
     LUNCH_COMBO: xdroid_raphael-userdebug
     TARGET: xd
