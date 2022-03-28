@@ -10,6 +10,8 @@ env:
     KT_LINK: https://github.com/LuanHalaiko/kernel_raphael_sm8150 -b raphael-unified
     PLATFORM: msmnile
     KT_PATH: kernel/$OEM/$DEVICE
+    HW_LINK: https://github.com/ArrowOS-Devices/android_hardware_xiaomi -b arrow-12.1
+    HW_PATH: hardware/$OEM
     CM_LINK: https://github.com/ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt -b arrow-12.1
     CM_PATH: packages/apps/GCamGOPrebuilt      
     LUNCH_COMBO: pixys_raphael-userdebug
